@@ -4,7 +4,7 @@ services:
     restart: unless-stopped
 
   maze-runner:
-    build: ./maze-runner
+    build: ./shell-mazing
     restart: unless-stopped
 
   nginx:
